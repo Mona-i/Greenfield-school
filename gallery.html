@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photo Gallery | Greenfield Secondary School, Abuja</title>
+  <meta name="description" content="Photo gallery showcasing life at Greenfield Secondary School — classrooms, sports, events, and the school campus." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="ticker-bar">
+    <div class="container ticker-inner">
+      <div class="ticker-label">NOTICE</div>
+      <div class="ticker-track"><div class="ticker-content">
+        <span>First Term examinations begin 18th November 2024</span>
+        <span>Inter-House Sports Day — Saturday 9th November</span>
+        <span>Science Fair entries close 1st November</span>
+        <span>Applications for JSS1 admission close 30th October</span>
+        <span>First Term examinations begin 18th November 2024</span>
+        <span>Inter-House Sports Day — Saturday 9th November</span>
+        <span>Science Fair entries close 1st November</span>
+        <span>Applications for JSS1 admission close 30th October</span>
+      </div></div>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-brand">
+        <div class="nav-crest"><svg viewBox="0 0 32 32" fill="none"><path d="M16 2L4 7v9c0 7.18 5.19 13.89 12 15.93C23.81 29.89 28 23.18 28 16V7L16 2z" fill="#4caf7d" stroke="#c9a84c" stroke-width="1.5"/><path d="M16 8v10M12 12l4-4 4 4" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="20" r="2" fill="#c9a84c"/></svg></div>
+        <div class="brand-text"><span class="brand-name">Greenfield Secondary School</span><span class="brand-motto">"Wisdom, Character &amp; Excellence" — Abuja, FCT</span></div>
+      </a>
+      <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="academics.html">Academics</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="news.html">News</a></li><li><a href="gallery.html" class="active">Gallery</a></li><li><a href="contact.html">Contact</a></li><li><a href="portal-login.html" class="btn-portal">Student Portal</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Gallery</span></div>
+      <h1>School Photo Gallery</h1>
+      <p>A glimpse into life at Greenfield — classrooms, sports, culture and community</p>
+    </div>
+  </div>
+
+  <!-- Gallery Section -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter buttons -->
+      <div class="filter-bar">
+        <button class="gallery-filter-btn active" data-filter="all">All Photos</button>
+        <button class="gallery-filter-btn" data-filter="campus">Campus</button>
+        <button class="gallery-filter-btn" data-filter="classroom">Classrooms</button>
+        <button class="gallery-filter-btn" data-filter="sports">Sports</button>
+        <button class="gallery-filter-btn" data-filter="events">Events</button>
+        <button class="gallery-filter-btn" data-filter="labs">Laboratories</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Campus -->
+        <div class="gallery-item fade-in" data-cat="campus">
+          <img src="https://picsum.photos/seed/gal1/600/450" alt="School main entrance" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="campus">
+          <img src="https://picsum.photos/seed/gal2/600/450" alt="School grounds" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="campus">
+          <img src="https://picsum.photos/seed/gal3/600/450" alt="School assembly hall" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="campus">
+          <img src="https://picsum.photos/seed/gal4/600/450" alt="School library" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+
+        <!-- Classrooms -->
+        <div class="gallery-item fade-in" data-cat="classroom">
+          <img src="https://picsum.photos/seed/gal5/600/450" alt="Students in classroom" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="classroom">
+          <img src="https://picsum.photos/seed/gal6/600/450" alt="Teacher and students" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="classroom">
+          <img src="https://picsum.photos/seed/gal7/600/450" alt="Group study session" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="classroom">
+          <img src="https://picsum.photos/seed/gal8/600/450" alt="Students writing exam" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+
+        <!-- Sports -->
+        <div class="gallery-item fade-in" data-cat="sports">
+          <img src="https://picsum.photos/seed/gal9/600/450" alt="Football match" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="sports">
+          <img src="https://picsum.photos/seed/gal10/600/450" alt="Athletics day" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="sports">
+          <img src="https://picsum.photos/seed/gal11/600/450" alt="Basketball" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="sports">
+          <img src="https://picsum.photos/seed/gal12/600/450" alt="Trophy presentation" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+
+        <!-- Events -->
+        <div class="gallery-item fade-in" data-cat="events">
+          <img src="https://picsum.photos/seed/gal13/600/450" alt="Prize giving ceremony" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="events">
+          <img src="https://picsum.photos/seed/gal14/600/450" alt="Cultural day" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="events">
+          <img src="https://picsum.photos/seed/gal15/600/450" alt="Graduation day" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="events">
+          <img src="https://picsum.photos/seed/gal16/600/450" alt="WAEC results celebration" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+
+        <!-- Labs -->
+        <div class="gallery-item fade-in" data-cat="labs">
+          <img src="https://picsum.photos/seed/gal17/600/450" alt="Chemistry laboratory" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="labs">
+          <img src="https://picsum.photos/seed/gal18/600/450" alt="Computer laboratory" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="labs">
+          <img src="https://picsum.photos/seed/gal19/600/450" alt="Biology lab" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+        <div class="gallery-item fade-in" data-cat="labs">
+          <img src="https://picsum.photos/seed/gal20/600/450" alt="Physics practical" loading="lazy"/>
+          <div class="gallery-overlay">🔍</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close photo viewer">✕</button>
+    <img id="lightbox-img" src="" alt="Full-size photo" />
+  </div>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>See Greenfield in Person</h2>
+      <p>Schedule a school tour and experience our facilities, meet our teachers, and see why parents choose Greenfield for their children.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-gold">Book a School Tour</a>
+        <a href="admissions.html" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.5);">Apply Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><div class="footer-logo"><div class="footer-logo-crest"><svg viewBox="0 0 32 32" fill="none" width="22"><path d="M16 2L4 7v9c0 7.18 5.19 13.89 12 15.93C23.81 29.89 28 23.18 28 16V7L16 2z" fill="#4caf7d" stroke="#c9a84c" stroke-width="1.5"/><path d="M16 8v10M12 12l4-4 4 4" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="20" r="2" fill="#c9a84c"/></svg></div><span class="footer-logo-name">Greenfield<br>Secondary School</span></div><p>Quality secondary education in the FCT since 2002.</p><div class="social-links"><a href="#" class="social-link">f</a><a href="#" class="social-link">𝕏</a><a href="#" class="social-link">📷</a></div></div>
+        <div class="footer-col"><h4>Quick Links</h4><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="academics.html">Academics</a></li><li><a href="admissions.html">Admissions</a></li><li><a href="news.html">News</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-col"><h4>Gallery</h4><ul class="footer-links"><li><a href="#">Campus Photos</a></li><li><a href="#">Classrooms</a></li><li><a href="#">Sports</a></li><li><a href="#">Events</a></li><li><a href="#">Laboratories</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><div class="footer-contact-item"><span class="icon">📍</span><span>Plot 42, Greenfield Crescent, Gwarinpa, Abuja</span></div><div class="footer-contact-item"><span class="icon">📞</span><span>+234 803 456 7890</span></div><div class="footer-contact-item"><span class="icon">✉️</span><span>info@greenfieldabuja.edu.ng</span></div></div>
+      </div>
+      <div class="footer-bottom"><span>© 2024 Greenfield Secondary School, Abuja. All rights reserved.</span></div>
+    </div>
+  </footer>
+
+  <button id="scrollTop" aria-label="Scroll to top">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
